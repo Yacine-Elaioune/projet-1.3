@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(51, 19, 73);
+    font-family: Arial;
+ 
+}
+
+.titre
+{
+     background-color: rgb(250, 36, 12);
+     text-align:center ;
+     margin: auto;
+color: rgb(240, 240, 238);
+}
+.b1 , .b2 , .b3
+{
+    background-color: rgb(20, 110, 200);
+    
+    height: 400px;
+    width: 30%;
+   margin-bottom: 20px;
+   
+    border: 2px solid rgb(51, 19, 73);
+    border-radius: 20px ;
+   color: rgb(240, 240, 238);
+   float: left;
+
+}
+.p1,.p3 ,.p5
+{
+    background-color: rgb(211, 12, 12);
+    text-align: center;
+    
+   margin-bottom: 20px;
+    border: 2px solid red;
+    border-radius: 20px ;
+   color: rgb(240, 240, 238);
+  
+
+}
+.p2 , .p6
+{
+    background-color: rgb(40, 189, 100);
+text-align: center;
+  margin: auto;
+   margin-left: 5px;
+   padding: 10px;
+    border: 2px solid rgb(8, 189, 111);
+    border-radius: 20px ;
+   color: rgb(240, 240, 238);
+  
+
+}
+.p4 
+{
+    background-color: rgb(40, 189, 100);
+text-align: center;
+   
+    
+   margin-bottom: 20px;
+    border: 2px solid rgb(8, 189, 111);
+    border-radius: 20px ;
+    
+   color: rgb(240, 240, 238);
+  
+
+}
+.a
+{
+     background-color: rgb(211, 175, 16);
+     text-align:center ;
+     margin: auto;
+color: rgb(240, 240, 238);
+clear: both;
+}
