@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(78, 156, 212);
+    font-family: Arial;
+    width: 794px;
+    margin: 0 auto;
+}
+.principale{
+    margin: auto;
+}
+.A1{
+    background-color: rgb(20, 110, 200);
+    width: 794px;
+    height: 190px; 
+    margin-bottom: 20px;
+    border: 2px solid rgb(51, 19, 73);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+}
+.A2{
+    background-color: rgb(43, 78, 194);
+    text-align: left;
+    height: 160px; width: 580px;
+    border: 2px solid rgb(13, 86, 194);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+    float: left;
+}
+.A3 {
+    height: 150px; width: 150px; 
+    border: 3px solid rgb(8, 63, 190);
+    float: right;
+}
+
+.B1 {
+    background-color: rgb(20, 110, 200);
+    width: 794px; 
+    height: 190px; 
+    margin-bottom: 20px;
+    border: 2px solid rgb(51, 19, 73);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+}
+.B2{
+    background-color: rgb(20, 110, 200);
+    text-align: left;
+    height: 120px; width: 130px; 
+    border: 2px solid rgb(167, 170, 172);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+    float: left;
+}
+.B3{
+    background-color: rgb(20, 110, 200);
+    text-align: left;
+    height: 120px; width: 625px;
+    border: 2px solid rgb(248, 247, 247);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+    float: right;
+}
+.C1{
+    background-color: rgb(20, 110, 200);
+    width: 794px;
+    height: 330px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(51, 19, 73);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+}
+.C2{
+    background-color: rgb(20, 110, 200);
+    text-align: left;
+    height: 270px; width: 130px; 
+    border: 2px solid rgb(167, 170, 172);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+    float: left;
+}
+.C3{
+    background-color: rgb(20, 110, 200);
+    text-align: left;
+    height: 270px; width: 625px;
+    border: 2px solid rgb(248, 247, 247);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+    float: right;
+}
+.D1{
+    background-color: rgb(20, 110, 200);
+    width: 794px;
+    height: 160px; 
+    margin-bottom: 20px;
+    border: 2px solid rgb(51, 19, 73);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+}
+.D2{
+    background-color: rgb(20, 110, 200);
+    text-align: left;
+    height: 100px; width: 130px; 
+    border: 2px solid rgb(167, 170, 172);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+    float: left;
+}
+.D3{
+    background-color: rgb(20, 110, 200);
+    text-align: left;
+    height: 100px; width: 625px;
+    border: 2px solid rgb(167, 170, 172);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+    float: right;
+}
+.E1{
+    background-color: rgb(20, 110, 200);
+    width: 794px;
+    height: 110px; 
+    margin-bottom: 20px;
+    border: 2px solid rgb(51, 19, 73);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+}
+.E2{
+    background-color: rgb(20, 110, 200);
+    text-align: left;
+    height: 50px; width: 130px; 
+    border: 2px solid rgb(167, 170, 172);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+    float: left;
+}
+.E3{
+    background-color: rgb(20, 110, 200);
+    text-align: left;
+    height: 50px; width: 625px;
+    border: 2px solid rgb(167, 170, 172);
+    border-radius: 20px ;
+    color: rgb(240, 240, 238);
+    float: right;
+}
+
+
+h1 { font-size: 18px; }
+h2, h3, h4, h5, h6 { font-size: 13px; }
+p { font-size: 12px; }
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
