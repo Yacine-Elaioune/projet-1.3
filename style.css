@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,800&display=swap");
+
+:root {
+  --fond: #e3e9ec;
+  --encre: #11232d;
+  --encre-douce: #4d616c;
+  --trait: #b4c2c9;
+  --lien: #1c3fd1;
+  --visite: #7a3fa8;
+  --surligneur: #f4e04d;
+  --police: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fond: #0f1b22;
+    --encre: #e6eef1;
+    --encre-douce: #93a7b1;
+    --trait: #2c3e48;
+    --lien: #8fa6ff;
+    --visite: #c9a0f0;
+    --surligneur: #f4e04d;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html {
+  background: var(--fond);
+  color: var(--encre);
+  font-family: var(--police);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 5rem;
+}
+
+/* Titre : gros, lourd, serré */
+h1 {
+  margin: 0 0 2.5rem;
+  font-size: clamp(2.6rem, 11vw, 4.5rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+}
+
+h1::first-letter { text-transform: uppercase; }
+
+/* Les <br> ne servent plus : chaque lien est une ligne */
+br { display: none; }
+
+a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 0.75rem 0.85rem 0;
+  border-top: 1px solid var(--trait);
+  color: var(--lien);
+  font-weight: 500;
+  text-decoration: none;
+  transition: padding-left 0.15s ease, background-color 0.15s ease;
+}
+
+a:last-of-type { border-bottom: 1px solid var(--trait); }
+
+a:visited { color: var(--visite); }
+
+a:hover,
+a:focus-visible {
+  padding-left: 0.9rem;
+  background: var(--surligneur);
+  color: #11232d;
+}
+
+a:focus-visible {
+  outline: 3px solid var(--encre);
+  outline-offset: 2px;
+}
+
+/* Le type de fichier est une vraie info : on l'affiche pour les PDF */
+a[href$=".pdf"]::after {
+  content: "PDF";
+  flex: none;
+  padding: 0.05rem 0.45rem;
+  border: 1.5px solid currentColor;
+  border-radius: 3px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--encre-douce);
+}
+
+a:hover::after,
+a:focus-visible::after { color: #11232d; }
+
+@media (max-width: 480px) {
+  html { font-size: 17px; }
+  body { padding-top: 2.5rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a { transition: none; }
+}
